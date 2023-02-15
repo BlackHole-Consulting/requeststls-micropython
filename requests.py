@@ -7,7 +7,7 @@ try:
 except:
     import ssl
 
-import lib.config as config
+import config
 import socket
 
 def http(url,port):
